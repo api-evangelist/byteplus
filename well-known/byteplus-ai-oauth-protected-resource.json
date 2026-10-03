@@ -1,0 +1,6 @@
+{
+  "resource": "https://ai.byteplus.com",
+  "authorization_servers": ["https://console.byteplus.com/.well-known/oauth-authorization-server"],
+  "scopes_supported": ["api.read", "playground.read", "models.read"],
+  "resource_documentation": "https://ai.byteplus.com/en/playground"
+}

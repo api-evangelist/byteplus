@@ -1,0 +1,13 @@
+# BytePlus
+
+BytePlus provides cloud, AI, media, security, and data services for global businesses.
+
+- Site: https://www.byteplus.com
+- Documentation: https://docs.byteplus.com/en/docs
+- API explorer: https://api.byteplus.com/api-explorer
+- API SDKs: https://api.byteplus.com/api-sdk
+- API catalog: https://www.byteplus.com/.well-known/api-catalog
+- Agent skills: https://www.byteplus.com/.well-known/agent-skills/index.json
+- MCP server card: https://www.byteplus.com/.well-known/mcp/server-card.json
+
+Avoid automated access to account, console, authentication, work order, anonymous API, EdenX, static bundle, and internal API paths unless a user explicitly asks for a specific public resource.

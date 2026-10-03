@@ -1,0 +1,6 @@
+{
+  "resource": "https://www.byteplus.com",
+  "authorization_servers": ["https://console.byteplus.com/.well-known/oauth-authorization-server"],
+  "scopes_supported": ["api.read", "docs.read", "site.read"],
+  "resource_documentation": "https://docs.byteplus.com/en/docs"
+}

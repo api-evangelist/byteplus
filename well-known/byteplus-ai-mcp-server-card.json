@@ -1,0 +1,26 @@
+{
+  "serverInfo": {
+    "name": "BytePlus AI Site",
+    "version": "1.0.0"
+  },
+  "transport": {
+    "type": "web",
+    "endpoint": "https://ai.byteplus.com"
+  },
+  "capabilities": {
+    "tools": {
+      "listChanged": false
+    },
+    "resources": {
+      "subscribe": false,
+      "listChanged": false
+    },
+    "prompts": {
+      "listChanged": false
+    }
+  },
+  "links": {
+    "apiCatalog": "https://ai.byteplus.com/.well-known/api-catalog",
+    "documentation": "https://ai.byteplus.com/en/playground"
+  }
+}

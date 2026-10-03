@@ -1,0 +1,26 @@
+{
+  "serverInfo": {
+    "name": "BytePlus Website",
+    "version": "1.0.0"
+  },
+  "transport": {
+    "type": "web",
+    "endpoint": "https://www.byteplus.com"
+  },
+  "capabilities": {
+    "tools": {
+      "listChanged": false
+    },
+    "resources": {
+      "subscribe": false,
+      "listChanged": false
+    },
+    "prompts": {
+      "listChanged": false
+    }
+  },
+  "links": {
+    "apiCatalog": "https://www.byteplus.com/.well-known/api-catalog",
+    "documentation": "https://docs.byteplus.com/en/docs"
+  }
+}

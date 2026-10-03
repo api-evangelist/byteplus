@@ -1,23 +1,125 @@
 aid: byteplus
+
 name: BytePlus
-description: 'BytePlus is a company surfaced via the API Evangelist harvest backlog (source: gartner-mq)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: BytePlus provides AI-native cloud services enabling enterprises to integrate advanced machine learning models for vision, speech,
+  and recommendation into their applications. The platform offers a suite of products such as ModelArk, BytePlus Voice, and Kickart, delivering
+  scalable inference, data analytics, and media processing capabilities. Founded as a technology arm of ByteDance, BytePlus serves global customers
+  across industries, emphasizing performance, security, and ease of integration through robust APIs and developer tools.
+
 url: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:gartner-mq
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-03 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-03'
+
 modified: '2026-10-03'
+
 tags:
-- Company
-apis: []
+- AI
+- Cloud
+- Enterprise
+- MachineLearning
+- Platform
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Spectral
+  url: rules/byteplus-rules.yml
+- type: JSONLD
+  url: json-ld/byteplus-context.jsonld
+- type: Vocabulary
+  url: vocabulary/byteplus-vocabulary.yml
+- type: DataModel
+  url: data-model/byteplus-data-model.yml
+- type: Compliance
+  url: https://www.byteplus.com/en/trust
+- type: Security
+  url: security/byteplus-vulnerability-disclosure.yml
+- type: Conformance
+  url: conformance/byteplus-conformance.yml
+- type: LLMsTxt
+  url: llms/byteplus-llms.txt
+- type: WellKnown
+  url: well-known/byteplus-well-known.yml
+- type: Hosts
+  url: hosts/byteplus-hosts.yml
+- type: Vendors
+  url: vendors/byteplus-vendors.yml
+- type: SDKs
+  url: packages/byteplus-packages.yml
+- type: Packages
+  url: packages/byteplus-packages.yml
+- type: TrustCenter
+  url: security/byteplus-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/byteplus-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/byteplus-domain-security.yml
 - type: Website
   url: https://www.byteplus.com
+- type: DeveloperPortal
+  url: https://console.byteplus.com
+- type: Documentation
+  url: https://docs.byteplus.com/en/docs
+- type: APIReference
+  url: https://api.byteplus.com/api-explorer
+- type: GettingStarted
+  url: https://www.byteplus.com/en/getting-started
+- type: Support
+  url: https://www.byteplus.com/en/support-hub
+- type: Blog
+  url: https://www.byteplus.com/en/blog
+- type: Pricing
+  url: https://www.byteplus.com/en/pricing
+- type: TermsOfService
+  url: https://docs.byteplus.com/en/legal/docs/terms-of-service
+- type: PrivacyPolicy
+  url: https://docs.byteplus.com/en/legal/docs/privacy-policy
+
+apis:
+- name: BytePlus API
+  description: API reference for BytePlus services as listed in the documentation.
+  humanURL: https://api.byteplus.com/api-explorer
+  baseURL: null
+  aid: byteplus:byteplus-api-2
+- aid: byteplus:byteplus-api
+  name: BytePlus API
+  description: 'BytePlus API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-10-03); not
+
+    the provider''s own document.'
+  humanURL: https://api.byteplus.com
+  baseURL: https://ecs.cn-beijing.byteplusapi.com.cn
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/byteplus-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/byteplus-get-response-schema.json
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: API explorer pages render via JavaScript and return HTML shells, no machine‑readable OpenAPI spec was found.
+  evidence:
+  - url: https://api.byteplus.com/openapi.json
+    status: 200
+  checked: '2026-10-03'
+x-enrichment:
+  date: '2026-10-03'
+  status: enriched
+  artifacts_added: 27
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

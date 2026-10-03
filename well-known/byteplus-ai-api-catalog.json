@@ -1,0 +1,54 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://ai.byteplus.com",
+      "service-desc": [
+        {
+          "href": "https://ai.byteplus.com/.well-known/api-catalog",
+          "type": "application/linkset+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://ai.byteplus.com/en/model",
+          "type": "text/html"
+        },
+        {
+          "href": "https://ai.byteplus.com/en/playground",
+          "type": "text/html"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://ai.byteplus.com/robots.txt",
+          "type": "text/plain"
+        }
+      ]
+    },
+    {
+      "anchor": "https://api.byteplus.com",
+      "service-desc": [
+        {
+          "href": "https://api.byteplus.com/api-explorer",
+          "type": "text/html"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.byteplus.com/en/docs",
+          "type": "text/html"
+        },
+        {
+          "href": "https://api.byteplus.com/api-sdk",
+          "type": "text/html"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://api.byteplus.com/api-explorer",
+          "type": "text/html"
+        }
+      ]
+    }
+  ]
+}
