@@ -1,0 +1,20 @@
+{
+  "provider": "byteplus",
+  "sources": [
+    "_ae-authored/byteplus-openapi-generated.yml"
+  ],
+  "outputs": [
+    "byteplus-byteplus-api-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "byteplus-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "byteplus-openapi-generated.yml: tagged paths GET / -> BytePlus API",
+    "byteplus-openapi-generated.yml: declared missing tag: BytePlus API",
+    "apis.yml register: written (+1 apis, 2 total)"
+  ],
+  "skipped": []
+}

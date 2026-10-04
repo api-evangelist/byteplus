@@ -95,20 +95,18 @@ apis:
   humanURL: https://api.byteplus.com/api-explorer
   baseURL: null
   aid: byteplus:byteplus-api-2
-- aid: byteplus:byteplus-api
-  name: BytePlus API
-  description: 'BytePlus API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-10-03); not
-
-    the provider''s own document.'
-  humanURL: https://api.byteplus.com
+- aid: byteplus:byteplus-byteplus-api-api
+  name: BytePlus BytePlus API
+  description: The BytePlus API API from BytePlus — 1 operation(s) for byteplus api.
+  humanURL: https://api.byteplus.com/api-explorer
   baseURL: https://ecs.cn-beijing.byteplusapi.com.cn
+  tags:
+  - BytePlus API
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/byteplus-openapi-generated.yml
-    x-provenance: generated
+    url: openapi/byteplus-byteplus-api-api-openapi.yml
   - type: JSONSchema
     url: json-schema/byteplus-get-response-schema.json
-
 x-coverage:
   state: unreadable
   reason: js-rendered-docs
