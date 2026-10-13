@@ -1,0 +1,22 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://aws.amazon.com/marketplace/
+marketplace_apps: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=bbfbc9c3-6af0-41cc-9a1d-5b29a42abf58
+  listing_count: 2
+  apps:
+  - Dreamina Seedance 2.0
+  - ByteHouse
+  seller_name: BytePlus
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
