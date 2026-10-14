@@ -15,3 +15,26 @@
   relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
+- slug: byteplus-openrouter
+  label: OpenRouter
+  partner: openrouter
+  partner_name: OpenRouter
+  type: coverage
+  channel: partner-built
+  evidence: https://openrouter.ai/api/v1/models
+  source: edge
+  relationship: system-coverage
+  status: not-a-workflow
+  arazzo: null
+- slug: byteplus-twilio-segment
+  label: Twilio Segment
+  partner: segment
+  partner_name: Twilio Segment
+  type: coverage
+  marketplace: coverage
+  channel: partner-built
+  evidence: https://www.twilio.com/docs/segment/connections/destinations/catalog/byteplus
+  source: edge
+  relationship: connector-coverage
+  status: not-a-workflow
+  arazzo: null

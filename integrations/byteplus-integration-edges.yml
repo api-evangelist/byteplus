@@ -3,6 +3,7 @@ method: searched
 checked:
 - https://aws.amazon.com/marketplace/
 - https://openrouter.ai/api/v1/models
+- https://www.twilio.com/docs/segment/connections/destinations/catalog/byteplus
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -41,3 +42,33 @@ edges:
   matched_by: verified-token-table
   detected_by: sweep-model-routing.py
   first_seen: '2026-10-13'
+- partner_name: Twilio Segment
+  partner: segment
+  partner_match: aggregator
+  marketplace: coverage
+  channel: partner-built
+  direction: partner-built
+  type: coverage
+  relationship: connector-coverage
+  evidence: https://www.twilio.com/docs/segment/connections/destinations/catalog/byteplus
+  coverage_role:
+  - destination
+  cdp_signals:
+    destination:
+      catalog_entries:
+      - byteplus
+      status: PUBLIC
+      partner_owned: true
+      connection_modes:
+      - cloud:mobile
+      - cloud:server
+      - cloud:web
+      accepted_methods:
+      - Alias
+      - Group
+      - Identify
+      - Page
+      - Track
+  detected_by: sweep-cdp.py
+  first_seen: '2026-10-14'
+source: https://www.twilio.com/docs/segment/connections/destinations/catalog/byteplus
