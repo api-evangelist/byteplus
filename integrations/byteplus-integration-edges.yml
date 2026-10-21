@@ -4,6 +4,7 @@ checked:
 - https://aws.amazon.com/marketplace/
 - https://openrouter.ai/api/v1/models
 - https://www.twilio.com/docs/segment/connections/destinations/catalog/byteplus
+- pulumi/integrations/pulumi-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -71,4 +72,21 @@ edges:
   matched_by: verified-token-table
   detected_by: sweep-model-routing.py
   first_seen: '2026-10-13'
+- partner_name: Pulumi (pulumi-registry)
+  partner: pulumi
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: pulumi-registry
+  evidence: https://www.pulumi.com/registry/packages/bytepluscc/
+  mirror_of: pulumi/integrations/pulumi-integration-edges.yml
+  apps:
+  - bytepluscc
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: infrastructure-as-code provider registry listing
 source: https://www.twilio.com/docs/segment/connections/destinations/catalog/byteplus

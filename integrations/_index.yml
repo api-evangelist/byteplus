@@ -38,3 +38,16 @@
   relationship: system-coverage
   status: not-a-workflow
   arazzo: null
+- slug: byteplus-pulumi-pulumi-registry
+  label: Pulumi (pulumi-registry)
+  partner: pulumi
+  partner_name: Pulumi (pulumi-registry)
+  category: infrastructure-as-code provider registry listing
+  type: marketplace
+  marketplace: pulumi-registry
+  channel: partner-built
+  evidence: https://www.pulumi.com/registry/packages/bytepluscc/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
