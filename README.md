@@ -64,5 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BytePlus is a company surfaced via the API Evangelist harvest backlog (source: gartner-mq) and added to the network as a stub for full-pipeline profiling.
-- https://www.byteplus.com
+BytePlus provides AI-native cloud services enabling enterprises to integrate advanced machine learning models for vision, speech, and recommendation into their applications. The platform offers a suite of products such as ModelArk, BytePlus Voice, and Kickart, delivering scalable inference, data analytics, and media processing capabilities. Founded as a technology arm of ByteDance, BytePlus serves global customers across industries, emphasizing performance, security, and ease of integration through robust APIs and developer tools.
+
+**Areas:** Artificial Intelligence · Cloud · Enterprise · Machine Learning · Platform
+
+## BytePlus on APIs.io
+
+Everything profiled for BytePlus is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/byteplus/](https://apis.io/providers/byteplus/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [BytePlus API](https://apis.io/apis/byteplus/byteplus-api-2/) — API reference for BytePlus services as listed in the documentation.
+- [BytePlus BytePlus API](https://apis.io/apis/byteplus/byteplus-byteplus-api-api/) — The BytePlus API API from BytePlus — 1 operation(s) for byteplus api.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [GetResponse](https://apis.io/schemas/byteplus/byteplus-get-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Byteplus Context](https://apis.io/jsonld/byteplus/byteplus-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [BytePlus API Rules](https://apis.io/rules/byteplus/byteplus-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Byteplus Domain Security](https://apis.io/security/byteplus/byteplus-domain-security/)
+- [Byteplus Trust Center](https://apis.io/security/byteplus/byteplus-trust-center/)
+- [Byteplus Vulnerability Disclosure](https://apis.io/security/byteplus/byteplus-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.byteplus.com)
+- [Documentation](https://docs.byteplus.com/en/docs)
+- [Getting started](https://www.byteplus.com/en/getting-started)
+- [API reference](https://api.byteplus.com/api-explorer)
+- [Pricing](https://www.byteplus.com/en/pricing)
+- [Support](https://www.byteplus.com/en/support-hub)
+- [Blog](https://www.byteplus.com/en/blog)
+- [Compliance](https://www.byteplus.com/en/trust)
+- [Terms of service](https://docs.byteplus.com/en/legal/docs/terms-of-service)
+- [Privacy policy](https://docs.byteplus.com/en/legal/docs/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 37.3** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 60.7 |
+| Contract quality | 18.5 |
+| Contract governance | 22.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 47.4 |
+
+**Agent readiness 40.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/byteplus/](https://apis.io/providers/byteplus/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BytePlus: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/byteplus/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
